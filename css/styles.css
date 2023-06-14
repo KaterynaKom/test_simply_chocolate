@@ -1,5 +1,36 @@
 /* reset */
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+ul {
+    list-style: none;
+}
+img {
+    display: block;  
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
 /* general */
+:root {
+    --black-color: #111111;
+    --dark-violet-color: #1E1823;
+    --orange-color: #FD9222;
+    --milk-color: #FAFAFA;
+    --light-orange: #FCF1E0;
+    --white-color: #FFFFFF;
+    --background-color: #E2E2E2;
+}
 /* Header */
 /* Hero */
 /* Advantages */
@@ -12,5 +43,5 @@
  /* Footer */
  /* Modal */
  /* Buy now */
- /* Leave a review about our chocolate */
-/* Explore our new chocolate first */
+  /* Leave a review about our chocolate */
+  /* Explore our new chocolate first */
