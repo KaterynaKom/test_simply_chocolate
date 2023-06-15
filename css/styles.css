@@ -31,7 +31,69 @@ img {
     --white-color: #FFFFFF;
     --background-color: #E2E2E2;
 }
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--white-color);
+}
+.container {
+    max-width: 428px;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1135px;
+    }
+}
 /* Header */
+.header {
+    display: flex;
+    align-items: center;
+
+}
+.page-nav {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 19px;
+}
+.logo1 { 
+        font-family: 'Montserrat';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.2;      
+        letter-spacing: -0.03em;
+        color: var(--black-color);
+}
+.logo2 {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: -0.03em;
+
+}
+.nav-list {
+    display: none;
+}
+.icon-logo {
+    display: flex;
+    align-items: center;
+
+}
+
 /* Hero */
 /* Advantages */
 /* Unique components */
