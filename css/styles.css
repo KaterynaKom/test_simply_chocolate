@@ -31,11 +31,6 @@ img {
     display: block;
 }
 
-.container {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 @media screen and (min-width: 320px) {
     .container {
         width: 100%;
@@ -129,7 +124,7 @@ body {
 /* Hero */
 /* Advantages */
 .advantages-section{
-    width: 100%;
+    width: 100vw;
     padding-top: 20px;
     padding-bottom: 36px;
     background-color: var(--dark-violet-color);
@@ -171,12 +166,22 @@ body {
 
 }
 
+
 .advantages-list{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 38px;
         padding-left: 0;
+}
+.advantages-item {
+
+}
+
+@media screen and (min-width: 375px) {
+    .advantages-item { 
+        max-width: 336px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -189,6 +194,7 @@ body {
         padding-left: 0;
         }
     .advantages-item {
+        max-width: 308px;
         flex-basis: calc(50% - 60px);
         }
 }
@@ -203,6 +209,7 @@ body {
         }
         
     .advantages-item {
+        max-width: 308px;
         position: relative;
         }
 
