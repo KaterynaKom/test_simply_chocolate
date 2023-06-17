@@ -166,16 +166,13 @@ body {
 
 }
 
-
 .advantages-list{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 38px;
         padding-left: 0;
-}
-.advantages-item {
-
+        width: 100vw;
 }
 
 @media screen and (min-width: 375px) {
