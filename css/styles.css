@@ -144,41 +144,6 @@ body {
     }
 }
 
-@media screen and (min-width: 320px) {
-    .advantages-container {
-        width: fit-content;
-        padding-left: 20px;
-        padding-right: 47px;
-    }
-}
-
-@media screen and (min-width: 375px){
-    .advantages-container {
-        max-width: 375px;
-        padding-left: 20px;
-        padding-right: 47px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .advantages-container {
-        max-width: 768px;
-        padding-left: 32px;
-        padding-right: 0px;
-    }
-
-
-}
-
-@media screen and (min-width: 1200px) {
-    .advantages-container {
-        max-width: 1200px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-} 
-
 .advantages-list {
     display: flex;
     flex-direction: column;
