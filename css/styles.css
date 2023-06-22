@@ -92,7 +92,7 @@ body {
     overflow: hidden;
 }
 /* Header */
-/* .header {
+.header {
     display: flex;
     align-items: center;
 
@@ -124,6 +124,10 @@ body {
 .nav-list {
     display: none;
 }
+.nav-social {
+    display: none;
+}
+
 .icon-logo {
     display: flex;
     align-items: center; }
